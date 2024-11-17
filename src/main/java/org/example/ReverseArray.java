@@ -2,12 +2,12 @@ package org.example;
 
 import java.util.Arrays;
 
-public class RotateArray {
+public class ReverseArray {
 
     public static void main(String[] args) {
         int[] arr = {1};
         // output = {5, 6, 2, 3, 4, 1}
-        new RotateArray().reverseArray(arr);
+        new ReverseArray().reverseArray(arr);
         System.out.println(Arrays.toString(arr));
     }
 
